@@ -17,7 +17,7 @@ namespace ExprTmpl
 ////////////////////////////////////////////////////////////////////////////////
 
 template <typename T>
-__Scalar<T>::__Scalar(const T &val): __val(val) {}
+__Scalar<T>::__Scalar(T val): __val(val) {}
 
 
 }  // End namespace ExprTmpl

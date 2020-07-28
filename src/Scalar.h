@@ -20,7 +20,7 @@ class __Scalar
 public:
 
     // Constructor
-    __Scalar(const T &val);
+    __Scalar(T val);
 
 
     // operator[]

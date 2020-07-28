@@ -18,4 +18,5 @@ LATEST UPDATE
 #include "src/Scalar.hpp"
 #include "src/Operator.hpp"
 #include "src/OperatorOverloading.hpp"
-#include "src/Array.hpp"
+#include "src/Expression.hpp"
+#include "src/Array.h"
