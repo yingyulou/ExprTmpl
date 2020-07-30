@@ -24,12 +24,14 @@ public:
     // Constructor
     __Plus(const LExpr &lhs, const RExpr &rhs);
 
+
     // operator[]
     T operator[](int idx) const { return __lhs[idx] + __rhs[idx]; }
 
 
 private:
 
+    // Attribute
     typename __ScalarTypeTraits<LExpr>::__Type __lhs;
     typename __ScalarTypeTraits<RExpr>::__Type __rhs;
 };
@@ -47,12 +49,14 @@ public:
     // Constructor
     __Minus(const LExpr &lhs, const RExpr &rhs);
 
+
     // operator[]
     T operator[](int idx) const { return __lhs[idx] - __rhs[idx]; }
 
 
 private:
 
+    // Attribute
     typename __ScalarTypeTraits<LExpr>::__Type __lhs;
     typename __ScalarTypeTraits<RExpr>::__Type __rhs;
 };
@@ -70,12 +74,14 @@ public:
     // Constructor
     __Multiplies(const LExpr &lhs, const RExpr &rhs);
 
+
     // operator[]
     T operator[](int idx) const { return __lhs[idx] * __rhs[idx]; }
 
 
 private:
 
+    // Attribute
     typename __ScalarTypeTraits<LExpr>::__Type __lhs;
     typename __ScalarTypeTraits<RExpr>::__Type __rhs;
 };
@@ -93,12 +99,14 @@ public:
     // Constructor
     __Divides(const LExpr &lhs, const RExpr &rhs);
 
+
     // operator[]
     T operator[](int idx) const { return __lhs[idx] / __rhs[idx]; }
 
 
 private:
 
+    // Attribute
     typename __ScalarTypeTraits<LExpr>::__Type __lhs;
     typename __ScalarTypeTraits<RExpr>::__Type __rhs;
 };
@@ -116,12 +124,14 @@ public:
     // Constructor
     __Modulus(const LExpr &lhs, const RExpr &rhs);
 
+
     // operator[]
     T operator[](int idx) const { return __lhs[idx] % __rhs[idx]; }
 
 
 private:
 
+    // Attribute
     typename __ScalarTypeTraits<LExpr>::__Type __lhs;
     typename __ScalarTypeTraits<RExpr>::__Type __rhs;
 };
